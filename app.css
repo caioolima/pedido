@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f9e9eb; /* Fundo suave */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px 0;
+    text-align: center;
+    background: #ff6b6b; /* Vermelho suave */
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.yes-or-no {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yes-or-no .yes, .yes-or-no .no {
+    font-weight: bold;
+    background: white;
+    color: #ff6b6b; /* Vermelho suave */
+    font-size: 1rem;
+    border: 2px solid #ff6b6b; /* Vermelho suave */
+    border-radius: 8px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+
+.yes-or-no .yes {
+    margin-right: 10px;
+    background: #ffdde1; /* Rosa suave */
+    color: #ff6b6b; /* Vermelho suave */
+}
+
+.yes-or-no .no {
+    margin-left: 10px;
+    background: #ffdde1; /* Rosa suave */
+    color: #ff6b6b; /* Vermelho suave */
+}
+
+.yes-or-no .yes:hover, .yes-or-no .no:hover {
+    background: #ff6b6b; /* Vermelho suave */
+    color: white;
+    border-color: #ff6b6b; /* Vermelho suave */
+}
+
+h1 {
+    color: #ff6b6b; /* Vermelho suave */
+    font-size: 2em;
+    margin: 20px 10%;
+    font-weight: bold;
+}
